@@ -1,0 +1,19 @@
+{
+  "name": "orbita-player",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Player de músicas e vídeos para Android, com playlists, favoritas e estatísticas de escuta.",
+  "scripts": {
+    "serve": "npx serve www",
+    "sync": "cap sync android",
+    "android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}
